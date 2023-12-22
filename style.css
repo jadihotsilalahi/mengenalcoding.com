@@ -1,0 +1,67 @@
+/* Reset CSS untuk menghilangkan default styles browser */
+* {
+    margin: 3;
+    padding: 6;
+    box-sizing: border-box;
+  }
+  
+  /* Atur font dan warna latar belakang */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e1e6e6;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Navigasi styling */
+  nav {
+    background-color: #0e7ceb;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  /* Artikel styling */
+  article {
+    margin: 22px;
+    padding: 22px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #344658;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Efek hover pada tautan */
+  a:hover {
+    color: #3498db;
+  }
+  
+  /* Efek hover pada tombol */
+  button:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
